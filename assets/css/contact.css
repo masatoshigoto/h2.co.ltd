@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap);
+.red {
+  color: red;
+}
+
+.fontEN, .bg-header h1 div span, h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.fontEN2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.fontJP, h2 span {
+  font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/* ------------------------------------------------- *
+ *        contact-module
+ * ------------------------------------------------- */
+.bg-header {
+  background: #fff url("../../assets/imgs/header-contact.jpg") 0 0 no-repeat;
+  background-position: 0px 68px;
+  background-size: contain;
+  background-attachment: fixed;
+  height: 0px;
+  padding-top: 16.7799043%;
+  position: relative;
+}
+
+.bg-header h1 {
+  position: absolute;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0px;
+  width: 240px;
+  background: #779ab6;
+  background-color: rgba(119, 154, 182, 0.85);
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.bg-header h1 div {
+  text-align: center;
+  color: #fff;
+  line-height: 1.35;
+  padding-top: 10px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -1.3em;
+}
+
+.bg-header h1 div span {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+/*
+.bg-header-sp {
+    padding-top: 60px;
+    background: #2e3b5c url('../../assets/imgs/main-visual-sp.jpg') 0 0 no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+*/
+.section-form {
+  margin-top: 2rem;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.875rem;
+  line-height: 1.0;
+  font-weight: 700;
+}
+h2 span {
+  font-weight: normal;
+  display: block;
+  color: #747577;
+  font-size: 0.9375rem;
+  margin-top: 0.675rem;
+  letter-spacing: 1.05px;
+}
+
+.section-form p {
+  margin-top: 1rem;
+}
+.section-form p span {
+  color: #f8082f;
+}
+.section-form .form-group {
+  padding-top: 1rem;
+}
+.section-form .form-group p {
+  font-weight: bold;
+}
+.section-form .btn-privary-policy {
+  font-size: 0.875rem;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+/*@media screen and (min-width:1200px) {
+	.block-content {
+		background: crimson;
+	}
+}*/
+/*
+@media screen and (max-width:1200px) {
+	.block-content {
+		background: yellow;
+	}
+}
+*/
+@media screen and (max-width: 991px) {
+  .bg-header h1 {
+    top: -5px;
+    font-size: 1.575rem;
+  }
+
+  .section-form {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg-header {
+    background-position: 0px 50px;
+    padding-top: 15.7799043%;
+  }
+
+  .bg-header h1 {
+    top: -10px;
+    font-size: 1.375rem;
+  }
+
+  .bg-header h1 div span {
+    font-size: 1.025rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  /*.block-content {
+  	background: pink;
+  }*/
+  .bg-header {
+    background-position: 0px 50px;
+    padding-top: 26.7799043%;
+    background-size: 165%;
+  }
+
+  .bg-header h1 {
+    font-size: 1.275rem;
+    width: 195px;
+  }
+
+  .bg-header h1 div span {
+    font-size: 0.925rem;
+  }
+
+  .section-form .mt-5 {
+    margin-top: 2rem !important;
+  }
+}

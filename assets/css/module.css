@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Faustina:400,700|Oswald:300,400);
+.red {
+  color: red;
+}
+
+.fontEN {
+  font-family: 'Faustina', serif;
+}
+
+.fontEN2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.fontJP {
+  font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
