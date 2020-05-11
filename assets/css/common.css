@@ -188,7 +188,7 @@ a:hover, a :focus, a :active, a :visited, a :link {
 }
 
 .header {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 .header nav {
   width: 95%;
@@ -313,6 +313,9 @@ a:hover, a :focus, a :active, a :visited, a :link {
 }
 
 @media screen and (max-width: 1200px) {
+  .section-contact.mt-100 {
+    margin-top: 80px !important;
+  }
   .section-contact h3 {
     padding: 1.5rem 0;
     font-size: 20px;
@@ -527,23 +530,21 @@ footer .footer-copy .font-en {
   	visibility:hidden;
   	display:none;
   }*/
-  .block-menu-btn .row .logo {
-    padding: 0.55rem 0px 0px 0px !important;
-    margin-left: -220px !important;
-  }
-  .block-menu-btn .row .logo img {
-    width: 220px !important;
-  }
 }
 .block-menu-btn {
   background: #fff;
   position: fixed;
   z-index: 9998;
-  width: 100%;
+  width: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   height: auto;
+  border-radius: 4px;
   padding: 0px 0px 0px 0rem;
   height: 50px;
-  top: 0;
+  top: 5px;
   border-bottom: 1px solid #ccc;
 }
 .block-menu-btn .row div {
@@ -551,13 +552,13 @@ footer .footer-copy .font-en {
 }
 .block-menu-btn .row .logo {
   padding: 0.25rem 0px 0px 0px;
-  margin-left: -310px;
+  margin-left: -120px;
 }
 .block-menu-btn .row .logo img {
-  width: 310px;
+  width: 120px;
 }
 .block-menu-btn .row .menu-btn {
-  padding-top: 6px;
+  padding-top: 12px;
   padding-left: 1.2rem;
 }
 .block-menu-btn .row .menu-btn p {
@@ -590,7 +591,7 @@ footer .footer-copy .font-en {
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: #01030a;
+  background-color: #457ccb;
   border-radius: 4px;
 }
 
@@ -628,7 +629,7 @@ footer .footer-copy .font-en {
 }
 
 .burger-navi .overlay {
-  padding-top: 50px;
+  padding-top: 60px;
   position: fixed;
   top: 0;
   z-index: 9990;
@@ -636,7 +637,7 @@ footer .footer-copy .font-en {
   overflow: auto;
   width: 100%;
   height: 100%;
-  background: #01030a;
+  background: #eee;
 }
 
 .burger-navi .menu {
@@ -645,7 +646,7 @@ footer .footer-copy .font-en {
   height: 100%;
 }
 .burger-navi .menu .nav-sp {
-  border-bottom: 1px solid #64615d;
+  border-bottom: 1px solid #8c8c8c;
   width: 100%;
   height: 10.5%;
   padding-left: 1.2rem;
@@ -663,12 +664,30 @@ footer .footer-copy .font-en {
   flex: 1;
 }
 .burger-navi .menu .btn-sp-contact {
-  padding: 1rem 3rem;
+  padding: 1rem 4rem;
 }
 .burger-navi .menu .nav-lang {
   padding-bottom: 1.5rem;
 }
 
-.burger-navi a {
-  color: #fff;
+.burger-navi .menu .area-btn a {
+  color: #fff !important;
+}
+
+.burger-navi .menu .area-btn p {
+  display: block;
+  margin-top: 10px;
+}
+
+.burger-navi .menu a, .burger-navi .menu .area-btn p a {
+  color: #333 !important;
+}
+
+.burger-navi .menu .area-btn p a {
+  font-size: .875rem;
+}
+
+.burger-navi .fa-facebook-square, .burger-navi .fa-twitter-square, .burger-navi .fa-youtube-square {
+  display: block;
+  font-size: 2rem;
 }

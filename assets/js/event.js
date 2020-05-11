@@ -302,6 +302,7 @@ $(function(){
 
 
 //slide in btns-footer
+/*
 $(function() {
   var flag = false;
   var pagetop = $('.btns-footer');
@@ -327,7 +328,7 @@ $(function() {
     return false;
   });
 });
-
+*/
 
 
 //matchHeight
@@ -338,6 +339,7 @@ $(function() {
 
 
 //stop btns-footer
+/*
 jQuery(window).on("scroll", function() {
   documentHeight = jQuery(document).height();
   scrollPosition = jQuery(this).height() + jQuery(this).scrollTop();
@@ -355,7 +357,7 @@ jQuery(window).on("scroll", function() {
     });
   }
 });
-
+*/
 
 
 

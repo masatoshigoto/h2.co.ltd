@@ -5,6 +5,49 @@
 /* ------------------------------------------------- *
  *        top-main-module
  * ------------------------------------------------- */
+#top .mt-100 {
+  margin-top: 80px !important;
+}
+#top h2 {
+  text-align: left !important;
+  font-size: 36px;
+  line-height: 1.35;
+  display: inline-block;
+}
+#top h2 span {
+  font-size: 20px;
+  color: #6fc5c6;
+  display: block;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  #top .mt-100 {
+    margin-top: 80px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  #top .mt-100 {
+    margin-top: 50px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #top .mt-100 {
+    margin-top: 30px !important;
+  }
+  #top .area-service, #top .area-mission, #top .area-news {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #top h2 {
+    font-size: 28px;
+    line-height: 1.35;
+  }
+  #top h2 span {
+    font-size: 16px;
+  }
+}
 .header {
   position: relative;
   background-image: url("../../assets/imgs/main-visual.jpg");
@@ -19,18 +62,18 @@
   color: #fff;
   background: #6fc5c6;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 15px 30px 15px 70px;
   font-weight: bold;
-  font-size: 45px;
-  line-height: 1.55;
+  font-size: 43px;
+  line-height: 1.45;
 }
 .header p {
   padding-left: 70px;
   font-size: 20px;
   font-weight: bold;
   line-height: 1.45;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .header .btn {
   margin-left: 70px;
@@ -38,53 +81,66 @@
 
 @media screen and (max-width: 1200px) {
   .header h1 {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 15px 30px 15px 40px;
-    font-size: 35px;
-    line-height: 1.45;
+    font-size: 32px;
   }
   .header p {
     padding-left: 40px;
     font-size: 18px;
-    line-height: 1.45;
     margin-top: 20px;
   }
   .header .btn {
+    padding: 10px 70px;
     margin-left: 40px;
   }
-  .header .btn.mt-35 {
+  .header .btn.mt-25 {
     margin-top: 20px !important;
   }
 }
 @media screen and (max-width: 991px) {
   .header h1 {
-    margin-top: 70px !important;
+    margin-top: 50px !important;
     padding: 15px 20px 15px 20px !important;
     font-size: 26px !important;
-    line-height: 1.45;
   }
   .header p {
     padding-left: 20px !important;
-    margin-top: 20px;
   }
   .header .btn {
     margin-left: 15px;
   }
-  .header .btn.mt-35 {
+  .header .btn.mt-25 {
     margin-top: 20px !important;
   }
 }
 @media screen and (max-width: 768px) {
-  .header h1 {
-    margin-top: 170px !important;
+  .header {
+    background-image: url("../../assets/imgs/main-visual-sp.png");
   }
-  .header .btn.mb-60 {
-    margin-bottom: 0px !important;
+  .header h1 {
+    margin-top: 70px !important;
+    font-size: 30px !important;
+  }
+  .header p {
+    margin-top: 15px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 576px) {
   .header {
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+  .header h1 {
+    margin-top: 230px !important;
+    font-size: 28px !important;
+  }
+  .header p {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  .header .btn.mt-25 {
+    margin-top: 20px !important;
   }
 }
 .area-service {
@@ -107,24 +163,8 @@
   width: 45%;
   text-align: left;
 }
-.area-service h2 {
-  text-align: left !important;
-  font-size: 36px;
-  line-height: 1.35;
-  display: inline-block;
-}
-.area-service h2 span {
-  font-size: 20px;
-  color: #6fc5c6;
-  display: block;
-  font-weight: 500;
-}
 .area-service .content {
   margin-top: 40px;
-  /*.txt {
-    margin-top:6.5%;
-    text-align:left;
-  }*/
 }
 .area-service .content img {
   padding-right: 50px;
@@ -182,13 +222,14 @@
   font-size: 1.625rem;
 }
 .card-body .box p {
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   padding-right: 1.35rem;
 }
 .card-body .box p:last-child {
   margin-bottom: 0px;
   text-align: right;
   font-size: .875rem;
+  color: #457ccb;
 }
 .card-body .box ul {
   margin: 0 !important;
@@ -274,15 +315,11 @@
   }
 }
 @media screen and (max-width: 991px) {
-  .area-service.mt-100 {
-    margin-top: 50px !important;
-  }
   .area-service .flex {
     display: inline;
   }
   .area-service .flex li:first-child {
     padding: 0 150px;
-    text-align: right;
     width: 100%;
   }
   .area-service .flex li:last-child {
@@ -297,9 +334,6 @@
     padding-right: 0px;
   }
 
-  .box2, .box3 {
-    margin-top: 70px;
-  }
   .box2 .card-body, .box3 .card-body {
     width: 83%;
     margin: 0 auto;
@@ -321,7 +355,6 @@
   .card-body .card-body-right {
     padding-right: 0rem;
     position: static;
-    right: 0;
   }
 
   .card-body .box {
@@ -332,24 +365,11 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .area-service.mt-100 {
-    margin-top: 30px !important;
-  }
   .area-service .flex li:first-child {
     padding: 0 100px;
-    text-align: right;
-    width: 100%;
-  }
-  .area-service .flex li:last-child {
-    padding: 0 50px;
-    width: 100%;
-    margin-top: 2rem;
   }
   .area-service .content {
-    margin-top: 20px;
-  }
-  .area-service .content img {
-    padding-right: 0px;
+    margin-top: 0px;
   }
 
   .box2, .box3 {
@@ -357,29 +377,9 @@
   }
   .box2 .card-body, .box3 .card-body {
     width: 95%;
-    margin: 0 auto;
-    display: block;
-    align-items: center;
-    position: relative;
     box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.32);
   }
-  .box2 p, .box3 p {
-    padding-right: 0px;
-  }
 
-  .card-body .card-body-right {
-    padding-right: 0rem;
-    position: static;
-    right: 0;
-  }
-
-  .card-body .box {
-    padding: 1.45rem 2rem 1.55rem 2rem;
-    width: 100%;
-  }
-  .card-body .box h3 {
-    font-size: 1.625rem;
-  }
   .card-body .box p {
     margin-bottom: 5px;
     padding-right: 0rem;
@@ -388,27 +388,22 @@
     margin-top: 1rem;
     text-align: left;
   }
+  .card-body .box ul {
+    margin-bottom: 0px !important;
+  }
   .card-body .box ul li {
     float: none;
   }
   .card-body .box ul li ul .font-en {
     float: left;
     font-size: 120px;
-    line-height: .78;
-    font-weight: 100;
-    margin-left: -18px;
   }
   .card-body .box ul li ul h3 {
     font-size: 26px;
     line-height: 1.45;
-    margin-left: -10px;
-  }
-  .card-body .box ul li ul h3 span {
-    font-size: 15px;
   }
   .card-body .box ul li ul div {
     font-size: 12px;
-    padding: 0px 5px;
     margin: 5px 0 0 0px;
   }
   .card-body .box ul li.wing {
@@ -416,21 +411,12 @@
     transform: scale(0.88, 0.88);
     padding-left: 40px;
     background-position: 0px;
-    height: 100px;
-    width: 260px;
+    padding-bottom: -100px !important;
   }
 }
 @media screen and (max-width: 576px) {
-  .area-service {
-    padding: 0 30px;
-  }
-  .area-service.mt-100 {
-    margin-top: 30px !important;
-  }
   .area-service .flex li:first-child {
-    padding: 0 30px;
-    text-align: right;
-    width: 100%;
+    padding: 0 20px;
   }
   .area-service .flex li:last-child {
     padding: 0 0px;
@@ -439,18 +425,12 @@
   .area-service .content {
     margin-top: 0px;
   }
-  .area-service .content img {
-    padding-right: 0px;
-  }
 
   .box2, .box3 {
     margin-top: 50px;
   }
   .box2 .card-body, .box3 .card-body {
     width: 100%;
-  }
-  .box2 p, .box3 p {
-    padding-right: 0px;
   }
 
   .box3 .card-body .box ul li ul h3 {
@@ -462,10 +442,6 @@
 
   .card-body .box {
     padding: 1.45rem 1.5rem 1.55rem 1.5rem;
-    width: 100%;
-  }
-  .card-body .box h3 {
-    font-size: 1.625rem;
   }
   .card-body .box p {
     margin-bottom: 5px;
@@ -481,9 +457,6 @@
   .card-body .box ul li ul .font-en {
     float: left;
     font-size: 100px;
-    line-height: .78;
-    font-weight: 100;
-    margin-left: -18px;
   }
   .card-body .box ul li ul h3 {
     font-size: 24px;
@@ -496,32 +469,15 @@
   }
   .card-body .box ul li ul div {
     font-size: 12px;
-    padding: 0px 5px;
     margin: 5px 0 0 0px;
   }
   .card-body .box ul li.wing {
-    transform-origin: left top;
-    transform: scale(0.88, 0.88);
-    padding-left: 40px;
-    background-position: 0px;
     height: 100px;
     width: 260px;
   }
 }
 .area-mission {
   text-align: center;
-}
-.area-mission h2 {
-  text-align: left !important;
-  font-size: 36px;
-  line-height: 1.35;
-  display: inline-block;
-}
-.area-mission h2 span {
-  font-size: 20px;
-  color: #6fc5c6;
-  display: block;
-  font-weight: 500;
 }
 .area-mission .parent {
   position: relative;
@@ -559,50 +515,33 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .area-mission .content {
-    margin-top: 40px !important;
-  }
   .area-mission .txt {
-    left: 50%;
-    width: 95%;
     padding: 3rem 1.5rem;
     margin-top: -40px;
   }
   .area-mission .txt p {
-    text-align: left;
     font-size: 23px;
   }
   .area-mission .btn {
-    margin-top: 260px;
+    margin-top: 240px;
   }
 }
 @media screen and (max-width: 991px) {
-  .area-mission .content {
-    margin-top: 40px !important;
-  }
   .area-mission .txt {
-    left: 50%;
-    width: 95%;
     padding: 2rem 1.5rem;
-    margin-top: -40px;
   }
   .area-mission .txt p {
-    text-align: left;
     font-size: 20px;
   }
   .area-mission .btn {
-    margin-top: 200px;
+    margin-top: 190px;
   }
 }
 @media screen and (max-width: 768px) {
-  .area-mission {
-    padding: 0 30px;
-  }
   .area-mission .content {
-    margin-top: 40px !important;
+    margin-top: 30px !important;
   }
   .area-mission .txt {
-    left: 50%;
     width: 100%;
     padding: 2rem 0rem !important;
     margin-top: 0px;
@@ -614,21 +553,10 @@
     margin-top: 220px;
   }
 }
-@media screen and (max-width: 768px) {
-  .area-mission {
-    padding: 0 30px;
-  }
-  .area-mission .content {
-    margin-top: 40px !important;
-  }
+@media screen and (max-width: 576px) {
   .area-mission .txt {
-    left: 50%;
     width: 100%;
-    padding: 1rem 2rem !important;
-    margin-top: 0px;
-  }
-  .area-mission .txt p {
-    font-size: 18px;
+    padding: 2rem 2rem !important;
   }
   .area-mission .btn {
     margin-top: 240px;
@@ -636,18 +564,6 @@
 }
 .area-news {
   text-align: center;
-}
-.area-news h2 {
-  text-align: left !important;
-  font-size: 36px;
-  line-height: 1.35;
-  display: inline-block;
-}
-.area-news h2 span {
-  font-size: 20px;
-  color: #6fc5c6;
-  display: block;
-  font-weight: 500;
 }
 .area-news .content {
   margin-top: 40px;
@@ -703,10 +619,12 @@
   margin-top: 30px;
 }
 
-@media screen and (max-width: 576px) {
-  .area-news {
-    padding: 0px 30px;
+@media screen and (max-width: 991px) {
+  .area-news .btn {
+    margin-top: 0px;
   }
+}
+@media screen and (max-width: 576px) {
   .area-news .content {
     margin-top: 30px;
   }
@@ -727,7 +645,7 @@
     width: 125px;
   }
   .area-news .content ul li:last-child {
-    padding-top: 5px;
+    padding-top: 10px;
     float: none;
     display: block;
     padding-left: 0px;
@@ -740,5 +658,32 @@
   }
   .area-news .btn {
     margin-top: 0px;
+  }
+}
+.source {
+  color: red;
+  display: block;
+  padding: 20px 0 50px 70px;
+  font-size: .875rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .source {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .source {
+    padding: 10px 0 50px 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .source {
+    padding: 10px 0 50px 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .source {
+    padding: 20px 0 30px 15px;
   }
 }
