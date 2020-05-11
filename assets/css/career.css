@@ -1,0 +1,184 @@
+.red {
+  color: red;
+}
+
+/* ------------------------------------------------- *
+ *        top-main-module
+ * ------------------------------------------------- */
+#career .section-contact.mt-100 {
+  margin-top: 0 !important;
+}
+#career .mt-100 {
+  margin-top: 80px !important;
+}
+#career h2 {
+  text-align: left !important;
+  font-size: 36px;
+  line-height: 1.35;
+  display: inline-block;
+}
+#career h2 span {
+  font-size: 20px;
+  color: #6fc5c6;
+  display: block;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  #career .mt-100 {
+    margin-top: 80px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  #career .mt-100 {
+    margin-top: 50px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #career .mt-100 {
+    margin-top: 30px !important;
+  }
+  #career .area-service, #career .area-mission, #career .area-news {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #career h2 {
+    font-size: 28px;
+    line-height: 1.35;
+  }
+  #career h2 span {
+    font-size: 16px;
+  }
+}
+.header {
+  background: #6fc5c6;
+  margin: 20px 20px 0px;
+}
+.header h1 {
+  color: #fff;
+  padding: 50px 30px 50px 60px;
+  font-size: 38px;
+  line-height: 1.25;
+}
+.header h1 span {
+  display: block;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .header h1 {
+    font-size: 32px;
+    padding: 50px 30px 40px 40px;
+  }
+  .header h1 span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header h1 {
+    margin-top: 70px !important;
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header {
+    margin-top: 0px;
+  }
+  .header h1 {
+    margin-top: 20px !important;
+    font-size: 26px !important;
+    padding: 40px 0px 20px 20px;
+  }
+  .header h1 span {
+    font-size: 16px;
+  }
+}
+.area-career {
+  text-align: center;
+}
+.area-career .content {
+  text-align: left;
+  margin-top: 40px;
+}
+.area-career .content img {
+  padding: 30px 10rem 0px;
+}
+.area-career .content h3 {
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 15px;
+  border-left: 6px solid #6fc5c6;
+  border-bottom: 1px solid #acacac;
+}
+.area-career .content .txt2 {
+  margin-top: 10px;
+}
+.area-career .content .txt-wantedly {
+  margin-top: 30px;
+}
+.area-career .content .btn {
+  line-height: 1.7;
+  margin-top: 30px;
+  padding: 20px 70px;
+}
+.area-career .content .btn img {
+  float: left;
+  width: 140px;
+  margin: 0;
+  padding: 0;
+}
+.area-career .content .btn div {
+  float: left;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .area-career .content img {
+    padding: 30px 5rem 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .area-career .content img {
+    padding: 30px 3rem 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .area-career {
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .area-career {
+    padding: 0 30px;
+    margin-bottom: 5rem;
+  }
+  .area-career .content {
+    margin-top: 20px;
+  }
+  .area-career .content h3 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .area-career .content img {
+    padding: 20px 0rem 0px;
+  }
+  .area-career .content .txt-wantedly {
+    margin-top: 10px;
+  }
+  .area-career .content .btn {
+    margin-top: 20px;
+    padding: 10px 70px;
+  }
+  .area-career .content .btn img {
+    float: none;
+  }
+  .area-career .content .btn div {
+    float: none;
+    margin-top: 3px;
+    margin-left: 0px;
+  }
+}

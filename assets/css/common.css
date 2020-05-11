@@ -691,3 +691,24 @@ footer .footer-copy .font-en {
   display: block;
   font-size: 2rem;
 }
+
+.breadcrumb {
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  padding: .5rem 2rem;
+  color: #333;
+}
+.breadcrumb img {
+  width: 20px;
+  margin-right: 7px;
+}
+.breadcrumb a {
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.breadcrumb a:hover, .breadcrumb a :focus, .breadcrumb a :active, .breadcrumb a :visited, .breadcrumb a :link {
+  text-decoration: none;
+  color: #6fc5c6;
+}
