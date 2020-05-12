@@ -5,153 +5,352 @@
 /* ------------------------------------------------- *
  *        top-main-module
  * ------------------------------------------------- */
-.header-visual .item-left {
-  float: left;
-  width: 380px;
-  margin-right: 10px;
+#company .section-contact.mt-100 {
+  margin-top: 0 !important;
 }
-.header-visual .item-left img {
+#company .mt-100 {
+  margin-top: 80px !important;
+}
+#company h2 {
+  text-align: left !important;
+  font-size: 36px;
+  line-height: 1.35;
+  display: inline-block;
+}
+#company h2 span {
+  font-size: 20px;
+  color: #6fc5c6;
+  display: block;
+  font-weight: 500;
+}
+#company .area-company .space {
+  height: 350px;
+}
+#company .area-company .space2 {
+  height: 240px;
+}
+#company .about-syncHealth ul {
+  list-style-type: none;
+  padding: 0;
+}
+#company .about-syncHealth li {
+  padding: 10px;
+}
+#company .about-syncHealth li img {
+  width: 200px;
+}
+#company .about-syncHealth li:last-child {
+  line-height: 4 !important;
+}
+#company .about-syncHealth .flex {
+  display: flex;
+  justify-content: center;
+}
+#company .about-syncHealth div {
+  background: #6fc5c6;
+  color: #fff;
+  font-size: 30px;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin-top: 30px;
+  line-height: 1.65;
+}
+#company .area-member .content {
+  margin-top: 40px;
+}
+#company .area-member img {
+  max-width: 205px;
+}
+#company .area-member .position {
+  color: #2bb59b;
+  margin-top: 10px;
+}
+#company .area-member .name {
+  font-weight: bold;
+  margin-top: -5px;
+}
+#company .area-member .txt {
+  text-align: left;
+  margin-top: 10px;
+}
+#company .area-member .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -35px;
+  margin-left: -35px;
+}
+#company .area-member .form-row > .col,
+#company .area-member .form-row > [class*="col-"] {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+#company .area-corp-info .content {
+  margin-top: 40px;
+}
+#company .area-corp-info ul {
+  border-top: 1px solid #e9e9e9;
+  list-style-type: none;
+  padding: 0;
   width: 100%;
 }
-.header-visual .item-right {
+#company .area-corp-info ul:last-child {
+  border-bottom: 1px solid #e9e9e9;
+  padding-bottom: 1.6rem;
+}
+#company .area-corp-info li {
   float: left;
-  width: calc(100% - 390px);
-}
-.header-visual h2 {
+  padding: 2rem 0 .9rem;
   text-align: left;
-  font-size: 1.675rem;
-  font-weight: 700;
-  padding: 6.775rem 0 0 0rem;
-  line-height: 1.85;
+}
+#company .area-corp-info li .fa-map-marker-alt, #company .area-corp-info li .fa-envelope, #company .area-corp-info li .fa-phone-office, #company .area-corp-info li a {
+  color: #457ccb;
+}
+#company .area-corp-info li .fa-envelope, #company .area-corp-info li .fa-phone-office {
+  font-size: 1.3rem;
+  padding-right: .3rem;
+}
+#company .area-corp-info li:first-child {
+  padding-left: 40px;
+  width: 200px;
+}
+#company .area-corp-info li:last-child {
+  padding-right: 40px;
+  width: calc(100% - 200px);
 }
 
-.area-main-child h3 {
-  font-size: 1.875rem;
+.area-ed .txt {
+  width: 95%;
+  padding: 1.5rem 2rem .5rem;
+  margin-top: -30px;
 }
-.area-main-child p {
-  line-height: 1.95;
-  margin-bottom: 20px;
+.area-ed .txt .txt-parent {
+  text-align: left;
 }
-.area-main-child p:last-child {
-  margin-bottom: 0;
+.area-ed .txt p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
 }
-.area-main-child blockquote {
-  position: relative;
-  padding: 40px 15px 8px 15px;
-  box-sizing: border-box;
-  font-style: italic;
-  background: #efefef;
-  color: #555;
-}
-.area-main-child blockquote:before {
-  display: inline-block;
-  position: absolute;
-  top: 13px;
-  left: 15px;
-  content: "\f10d";
-  font-family: "Font Awesome 5 Free";
-  color: #cfcfcf;
-  font-size: 28px;
-  line-height: 1;
-  font-weight: 900;
-}
-.area-main-child blockquote p {
+.area-ed .txt ul {
   padding: 0;
-  margin: 10px 0;
-}
-.area-main-child blockquote cite {
-  display: block;
-  text-align: right;
-  color: #888888;
-  font-size: 0.9em;
-  padding-top: .5rem;
+  padding-left: 25px;
 }
 
-@media (min-width: 576px) {
-  	/*.card-deck {
-  		flex-flow: row wrap;
-  		margin-right: -15px;
-  		margin-left: -15px;
-  	}
-  	.card-deck .card {
-  		display: flex;
-      flex: 1 0 0%;
-      flex-direction: column;
-      margin-right: 15px;
-      margin-bottom: 0;
-      margin-left: 15px;
-    }*/
-}
-@media screen and (min-width: 1200px) {
-  /*.block-content {
-  	background: crimson;
-  }*/
-}
-@media screen and (max-width: 1140px) {
-  /*.block-content {
-    background: yellow;
-  }*/
-}
-@media screen and (max-width: 1145px) {
-  /*.block-content {
-  	background: yellow;
-  }*/
-  .header-visual .item-left {
-    float: left;
-    width: 300px;
-    margin-right: 10px;
-  }
-  .header-visual .item-left img {
-    width: 100%;
-  }
-  .header-visual .item-right {
-    float: left;
-    width: calc(100% - 310px);
-  }
-  .header-visual h2 {
-    font-size: 1.375rem;
-    padding: 4.575rem 0 0 0rem;
-    line-height: 1.85;
+@media screen and (max-width: 1200px) {
+  #company .mt-100 {
+    margin-top: 80px !important;
   }
 }
 @media screen and (max-width: 991px) {
-  	/*.card-deck {
-  		margin-right: -5px;
-  		margin-left: -5px;
-  		margin-bottom: 1rem;
-  	}
-  	.card-deck .card {
-        margin-right: 5px;
-        margin-left: 5px;
-    }*/
+  .area-ed .txt {
+    padding: 1.5rem 1rem .5rem;
+  }
+
+  #company .mt-100 {
+    margin-top: 70px !important;
+  }
+  #company .area-company .space {
+    height: 350px;
+  }
+  #company .area-company .space2 {
+    height: 170px;
+  }
+  #company .area-member .content {
+    margin-top: 20px;
+  }
+  #company .area-member img {
+    max-width: 185px;
+  }
+  #company .area-member .form-row {
+    margin-right: -25px;
+    margin-left: -25px;
+  }
+  #company .area-member .form-row > .col,
+  #company .area-member .form-row > [class*="col-"] {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .area-corp-info .content {
+    margin-top: 20px !important;
+  }
+}
+@media screen and (max-width: 931px) {
+  #company .area-company .space {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 850px) {
+  #company .area-company .space {
+    height: 430px;
+  }
 }
 @media screen and (max-width: 768px) {
-  /*
-	.card-deck {
-		margin-right: -7px;
-		margin-left: -7px;
-		margin-bottom: 1rem;
-	}
-	.card-deck .card {
-    margin-right: 7px;
-    margin-left: 7px;
+  .area-ed .txt {
+    width: 100%;
+    padding: 1.5rem 2rem 0.5rem !important;
+    margin-top: 0px;
   }
-  */
+
+  #company .area-mission, #company .area-member, #company .area-corp-info {
+    padding: 0 30px;
+  }
+  #company .about-syncHealth div {
+    font-size: 26px;
+  }
+  #company .area-member .content {
+    margin-top: 20px;
+  }
+  #company .area-member img {
+    max-width: 185px;
+  }
+  #company .area-member .form-row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #company .area-member .form-row > .col,
+  #company .area-member .form-row > [class*="col-"] {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #company .area-member .box-member {
+    margin-bottom: 30px;
+  }
+  #company .area-member .box-member:last-child {
+    margin-bottom: 0px;
+  }
+  #company .area-company .space {
+    height: 0px;
+  }
+  #company .area-company .space2 {
+    height: 20px;
+  }
 }
 @media screen and (max-width: 576px) {
-  /*.block-content {
-  	background: pink;
-  }*/
-  /*
-	.card-deck {
-		margin-bottom: 0px;
-	}*/
-  /*h2 {
-    margin-bottom:0.5em;
-    font-size:2.0rem;
-    line-height:1.15;
-     span {
-      font-size:0.95rem;
-    }
-  }*/
+  .area-ed .txt {
+    width: 100%;
+    padding: 1.5rem 1rem 0.5rem !important;
+    margin-top: 0px;
+  }
+
+  #company h2 {
+    font-size: 28px;
+    line-height: 1.35;
+  }
+  #company h2 span {
+    font-size: 16px;
+  }
+  #company .area-member .content {
+    margin-top: 20px;
+  }
+  #company .area-member img {
+    max-width: 185px;
+  }
+  #company .area-member .form-row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #company .area-member .form-row > .col,
+  #company .area-member .form-row > [class*="col-"] {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #company .area-company .space {
+    height: 0px;
+  }
+  #company .area-company .space2 {
+    height: 30px;
+  }
+  #company .about-syncHealth li {
+    padding: 5px;
+  }
+  #company .about-syncHealth li img {
+    width: 150px;
+  }
+  #company .about-syncHealth li:last-child {
+    line-height: 3.2 !important;
+  }
+  #company .about-syncHealth p {
+    text-align: left;
+    margin-top: -10px;
+    padding: 0;
+  }
+  #company .about-syncHealth div {
+    font-size: 20px;
+    padding: 1rem 1rem;
+    margin-top: 20px;
+    width: 100%;
+  }
+  #company .area-corp-info ul {
+    padding: 0;
+    padding-top: 15px;
+    width: 100%;
+  }
+  #company .area-corp-info ul:last-child {
+    padding-bottom: 1.6rem;
+  }
+  #company .area-corp-info li {
+    float: none;
+    padding: 0rem;
+  }
+  #company .area-corp-info li .fa-envelope, #company .area-corp-info li .fa-phone-office {
+    font-size: 1.3rem;
+    padding-right: .3rem;
+  }
+  #company .area-corp-info li:first-child {
+    font-weight: bold;
+    padding-left: 0px;
+    width: 100%;
+  }
+  #company .area-corp-info li:last-child {
+    padding-right: 0px;
+    width: 100%;
+  }
+}
+.header {
+  background: #6fc5c6;
+  margin: 20px 20px 0px;
+}
+.header h1 {
+  color: #fff;
+  padding: 50px 30px 50px 60px;
+  font-size: 38px;
+  line-height: 1.25;
+}
+.header h1 span {
+  display: block;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .header h1 {
+    font-size: 32px;
+    padding: 50px 30px 40px 40px;
+  }
+  .header h1 span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header h1 {
+    margin-top: 20px !important;
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header {
+    margin-top: 0px;
+  }
+  .header h1 {
+    margin-top: 20px !important;
+    font-size: 26px !important;
+    padding: 40px 0px 20px 20px;
+  }
+  .header h1 span {
+    font-size: 16px;
+  }
+}
+.area-company {
+  text-align: center;
 }
