@@ -60,20 +60,21 @@
   background: #6fc5c6;
   display: inline-block;
   margin-top: 30px;
-  padding: 15px 30px 15px 70px;
+  padding: 30px 30px 30px 30px;
   font-weight: bold;
-  font-size: 43px;
-  line-height: 1.45;
+  font-size: 34px;
+  line-height: 1.75;
 }
 .header p {
-  padding-left: 70px;
+  padding-left: 30px;
   font-size: 20px;
-  font-weight: bold;
-  line-height: 1.45;
+  font-weight: normal;
+  line-height: 1.75;
   margin-top: 25px;
+  text-shadow: 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white;
 }
 .header .btn {
-  margin-left: 70px;
+  margin-left: 30px;
   margin-bottom: 60px;
 }
 
@@ -129,6 +130,10 @@
   .header p {
     margin-top: 15px;
     font-size: 20px;
+    padding: 0 20px;
+  }
+  .header .btn {
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -137,7 +142,7 @@
   }
   .header h1 {
     margin-top: 230px !important;
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
   .header p {
     margin-top: 30px;
@@ -216,7 +221,7 @@
 .card-body .box {
   text-align: left;
   padding: 1.45rem 0 1.55rem 1.55rem;
-  width: 550px;
+  width: 600px;
   background: #fff;
   -webkit-box-shadow: 0px 0px 24px -3px rgba(0, 0, 0, 0.52);
   -moz-box-shadow: 0px 0px 24px -3px rgba(0, 0, 0, 0.52);
@@ -272,15 +277,16 @@
   margin: 5px 0 0 -7px;
 }
 .card-body .box ul li.wing {
-  padding-left: 60px;
+  padding-left: 55px;
   color: #ae9f5f;
   background-image: url("../../assets/imgs/wing-l.png");
   background-repeat: no-repeat;
-  background-position: 20px;
+  background-position: 15px;
   height: 100px;
-  width: 280px;
+  width: 275px;
   font-size: 16px;
   font-weight: bold;
+  margin-top: 3px !important;
 }
 .card-body .box ul li.wing .wing-r {
   width: 100%;
@@ -478,5 +484,6 @@
   .card-body .box ul li.wing {
     height: 100px;
     width: 260px;
+    margin-top: 13px !important;
   }
 }
